@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- 1 -->
+    <!-- <a href="#" onclick="showAlert()">Click me</a> -->
+
+
+    <!-- 2 -->
+    <!-- <h1>Mobile Phone lookup</h1>
+    <img src="iPhone6s.jpeg" alt="iPhone 6s" class="mobile-image" width="10%" onclick="showAlert('iPhone 6s')">
+    <p>iPhone6s</p>
+    <img src="GalaxyS6EdgePlus.jpeg" alt="Galaxy S6 Edge Plus" class="mobile-image" width="10%" onclick="showAlert('Galaxy S6 Edge Plus')">
+    <p>GalaxyS6EdgePlus</p>
+    <img src="V10.jpeg" alt="V10" class="mobile-image" width="10%" onclick="showAlert('V10')">
+    <p>V10</p>
+    <img src="HuaweiP9.jpg" alt="Huawei P9" class="mobile-image" width="10%" height="127px" onclick="showAlert('Huawei P9')">
+    <p>HuaweiP9</p> -->
+
+    <!-- 3 -->
+    <!-- <h1>Student Records</h1>
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>John </td>
+                <td>10</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Doe</td>
+                <td>9</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>James</td>
+                <td>8</td>
+                <td><button class="delete-btn" onclick="deleteRow(this)">Delete</button></td>
+            </tr>
+            
+        </tbody>
+    </table> -->
+
+    <!-- 4 -->
+    <!-- <img id="myImage" src="image1.jpg" alt="First Image" 
+    onmouseover="changeImage()" onmouseout="resetImage()"> -->
+
+    <!-- 5 -->
+    <h1>Counter: <span id="counter">0</span></h1>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+
+
+
+
+
+    <script>
+
+        // 1
+        //  function showAlert() {
+        //     alert("Hello! You clicked the link.");
+        // }
+
+        // 2
+        // function showAlert(phoneModel) {
+        //     alert("You clicked on " + phoneModel);
+        // }
+
+        // 3
+        // function deleteRow(button) {
+        //     var row = button.parentNode.parentNode;
+        //     row.parentNode.removeChild(row);
+        // }
+
+        // 4
+        // function changeImage() {
+        //     document.getElementById('myImage').src = 'image2.jpg';
+        // }
+
+        // function resetImage() {
+        //     document.getElementById('myImage').src = 'image1.jpg';
+        // }
+
+        // 5
+        let count = 0;
+
+function increase() {
+    count++;
+    document.getElementById('counter').innerText = count;
+}
+
+function decrease() {
+    count--;
+    document.getElementById('counter').innerText = count;
+}
+
+
+
+    </script>
+</body>
+</html>

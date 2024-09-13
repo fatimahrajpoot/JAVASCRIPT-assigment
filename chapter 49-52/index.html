@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- <h1>Signup Form</h1>
+    <form id="signupForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <h2>Submitted Data:</h2>
+    <p id="displayData"></p> -->
+
+    <!-- 2 -->
+
+    <!-- <h2>Item Details</h2> -->
+
+<!-- Item 1 -->
+    <!-- <div>
+        <h3>Item 1</h3>
+        <p id="moreText1" style="display: none;">
+            This is the full detail of Item 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, neque et facilisis dignissim, metus nisi euismod ligula, id facilisis justo nulla in libero. Curabitur ac tristique arcu.
+        </p>
+        <p id="shortText1">
+            This is the short description of Item 1...
+        </p>
+        <button onclick="toggleReadMore(1)">Read more</button>
+    </div> -->
+
+    <!-- Item 2 -->
+    <!-- <div>
+        <h3>Item 2</h3>
+        <p id="moreText2" style="display: none;">
+            This is the full detail of Item 2. Aenean ac dui quis ligula fermentum vestibulum. Fusce nec tincidunt arcu. Suspendisse a ultrices sapien, non convallis libero. Phasellus at ullamcorper justo.
+        </p>
+        <p id="shortText2">
+            This is the short description of Item 2...
+        </p>
+        <button onclick="toggleReadMore(2)">Read more</button>
+    </div> -->
+
+    <!-- 3 -->
+    <!-- <form id="studentForm">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="number" id="age" placeholder="Age" required>
+        <input type="text" id="grade" placeholder="Grade" required>
+        <button type="submit">Add Student</button>
+    </form> -->
+
+    <!-- <table border="1" id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table> -->
+
+    <!-- <form id="editForm" class="hidden">
+        <input type="text" id="editName" required>
+        <input type="number" id="editAge" required>
+        <input type="text" id="editGrade" required>
+        <button type="submit">Save Changes</button>
+    </form> -->
+      
+
+
+    <script>
+
+        // 1
+        //  document.getElementById('signupForm').addEventListener('submit', function(event) {
+        //     event.preventDefault();
+
+        //     var username = document.getElementById('username').value;
+        //     var email = document.getElementById('email').value;
+        //     var password = document.getElementById('password').value;
+
+        //     document.getElementById('displayData').innerText = `Username: ${username}, Email: ${email}, Password: ${password}`;
+        // });
+
+        // // 2
+        //     function toggleReadMore(item) {
+        //     var moreText = document.getElementById("moreText" + item);
+        //     var shortText = document.getElementById("shortText" + item);
+        //     var button = moreText.nextElementSibling;
+
+        //     if (moreText.style.display === "none") {
+        //         moreText.style.display = "inline";
+        //         shortText.style.display = "none";
+        //         button.textContent = "Read less";
+        //     } else {
+        //         moreText.style.display = "none";
+        //         shortText.style.display = "inline";
+        //         button.textContent = "Read more";
+        //     }
+        // }
+
+        // 3
+        // document.getElementById('studentForm').addEventListener('submit', function(e) {
+        // e.preventDefault();
+        // var name = document.getElementById('name').value;
+        // var age = document.getElementById('age').value;
+        // var grade = document.getElementById('grade').value;
+
+        // var table = document.getElementById('studentTable').getElementsByTagName('tbody')[0];
+        // var newRow = table.insertRow();
+
+        // newRow.insertCell(0).innerText = name;
+        // newRow.insertCell(1).innerText = age;
+        // newRow.insertCell(2).innerText = grade;
+
+        // var actionsCell = newRow.insertCell(3);
+        // actionsCell.innerHTML = '<button class="delete-btn">Delete</button> <button class="edit-btn">Edit</button>';
+
+        // actionsCell.querySelector('.delete-btn').addEventListener('click', function() {
+        //     table.deleteRow(newRow.rowIndex - 1);
+        // });
+
+        // actionsCell.querySelector('.edit-btn').addEventListener('click', function() {
+        //     document.getElementById('editForm').classList.remove('hidden');
+        //     document.getElementById('editName').value = name;
+        //     document.getElementById('editAge').value = age;
+        //     document.getElementById('editGrade').value = grade;
+
+        //     document.getElementById('editForm').onsubmit = function(e) {
+        //         e.preventDefault();
+        //         newRow.cells[0].innerText = document.getElementById('editName').value;
+        //         newRow.cells[1].innerText = document.getElementById('editAge').value;
+        //         newRow.cells[2].innerText = document.getElementById('editGrade').value;
+        //         document.getElementById('editForm').classList.add('hidden');
+        //     };
+        // });
+
+        // document.getElementById('studentForm').reset();
+        // });
+
+
+
+    </script>
+</body>
+</html>
